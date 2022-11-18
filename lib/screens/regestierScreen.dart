@@ -8,8 +8,12 @@ class RegesterScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title:Text("hhhffff")),
-
+      appBar: AppBar(title: Text("hhhffff")),
+      bottomNavigationBar: BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(icon: Icon(Icons.call))
+        ],
+      ),
     );
   }
 }

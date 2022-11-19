@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109278906666",
+    "project_id": "flash-chat-ac988",
+    "storage_bucket": "flash-chat-ac988.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109278906666:android:ac52fa8adbe41fe4c7f653",
+        "android_client_info": {
+          "package_name": "com.ayed.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109278906666-e5495p4pedljdtkhuagm5i2iknlrjg37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq0V1lag6lVynhGrDwLiakNtdLG0jaK-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109278906666-e5495p4pedljdtkhuagm5i2iknlrjg37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

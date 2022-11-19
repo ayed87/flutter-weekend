@@ -1,4 +1,4 @@
-# flutter_weekend_project
+# chat_app
 
 A new Flutter project.
 

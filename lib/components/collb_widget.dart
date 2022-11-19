@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:chat_app/constants.dart';
 
-class RondedCard extends StatelessWidget {
-  const RondedCard(
+class CollbCard extends StatelessWidget {
+  const CollbCard(
       {this.ontap,
       required this.nameOfCity,
       required this.imageLocation,
@@ -22,14 +22,11 @@ class RondedCard extends StatelessWidget {
           children: [
             Container(
               height: 120,
-              width: 150,
+              width: 160,
               child: Image(
                 fit: BoxFit.fill,
                 image: AssetImage(imageLocation),
               ),
-            ),
-            SizedBox(
-              height: 15,
             ),
             Text(
               nameOfCity,
@@ -41,8 +38,8 @@ class RondedCard extends StatelessWidget {
             )
           ],
         ),
-        width: 150,
-        height: 180,
+        width: 160,
+        height: 200,
         margin: EdgeInsets.all(15),
         decoration: BoxDecoration(
           color: Colors.brown.shade100,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:chat_app/constants.dart';
 
-class RondedCard extends StatelessWidget {
-  const RondedCard(
+class PackageCard extends StatelessWidget {
+  const PackageCard(
       {this.ontap,
       required this.nameOfCity,
       required this.imageLocation,
@@ -28,16 +28,13 @@ class RondedCard extends StatelessWidget {
                 image: AssetImage(imageLocation),
               ),
             ),
-            SizedBox(
-              height: 15,
-            ),
             Text(
               nameOfCity,
-              style: kCityNameTextStyle,
+              style: kPackageTextStyle,
             ),
             Text(
               description!,
-              style: kDescriptionTextStyle,
+              style: kPackageTextStyle,
             )
           ],
         ),

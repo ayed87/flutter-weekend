@@ -1,4 +1,5 @@
 import 'package:chat_app/components/Package_widget.dart';
+import 'package:chat_app/screens/welcome_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_app/constants.dart';
@@ -182,10 +183,15 @@ class _homeScreenState extends State<homeScreen> {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: <Widget>[
-                    CollbCard(
-                      imageLocation: 'images/masart.jpg',
-                      nameOfCity: "Masarat",
-                      description: "Location: Riyadh\nPhone:+966566445538",
+                    GestureDetector(
+                      onDoubleTap: () {
+                        Navigator.pushNamed(context, "Collab Page");
+                      },
+                      child: CollbCard(
+                        imageLocation: 'images/masart.jpg',
+                        nameOfCity: "Masarat",
+                        description: "Location: Riyadh\nPhone:+966566445538",
+                      ),
                     ),
                     CollbCard(
                       imageLocation: 'images/taayuush.jpg',
@@ -213,7 +219,7 @@ class _homeScreenState extends State<homeScreen> {
                     description: "",
                   ),
                   PackageCard(
-                    imageLocation: 'images/khobar.jpeg',
+                    imageLocation: 'images/luxury.jpg',
                     nameOfCity: "Luxury experince",
                     description: "",
                   ),

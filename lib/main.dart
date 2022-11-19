@@ -1,3 +1,4 @@
+import 'package:chat_app/screens/Collab_page.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_app/screens/welcome_screen.dart';
 import 'package:chat_app/screens/login_screen.dart';
@@ -26,6 +27,7 @@ class AbrAPP extends StatelessWidget {
         ),
       ),
       routes: {
+        "Collab Page":(context) => CollabPage(),
         LoginScreen.id: (context) => LoginScreen(),
         WelcomeScreen.id: (context) => WelcomeScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),

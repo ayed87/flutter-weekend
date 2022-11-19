@@ -15,6 +15,10 @@ const kPackageTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
   fontSize: 15,
 );
+const kTextStyle = TextStyle(
+  color: Colors.black,
+  fontSize: 15,
+);
 
 const kMessageTextFieldDecoration = InputDecoration(
   contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
